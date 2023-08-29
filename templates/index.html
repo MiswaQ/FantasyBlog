@@ -14,14 +14,14 @@
                         <div class="card-body">
                             <div class="image-container">
                                 {% if 'placeholder' in post.featured_image.url %}
-                                <img class="card-img-top" src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                <img class="card-img-top" src="https://res.cloudinary.com/miswaq/image/upload/v1693242357/eye-mythological-dragon-fire-generative-ai_188544-12557_eb4xdo.avif">
                                 {% else %}
                                 <img class="card-img-top" src="{{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
-                            </div>          
+                            </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
