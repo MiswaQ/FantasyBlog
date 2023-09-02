@@ -2,6 +2,14 @@ body {
     background-color: #F9FAFC;
 }
 
+.img-header {
+    background-image: url(https://res.cloudinary.com/miswaq/image/upload/v1693243372/tumblr_2669f3235b0f1b4b89f51035603ea43a_14c2f721_1280_jhhede.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
