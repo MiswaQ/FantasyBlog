@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load crispy_forms_tags %}
+
+<div class="container-fluid">
+    <div class="col-md-4 card mb-4 mt-3">
+        <div class="card-body">
+            {% if user.is_authenticated %}
+            <h3>Edit comment:</h3>
+            <p>Edit as: {{ user.username }}</p>
+            <form method="post">
+                {{ form|crispy }}
+                {% csrf_token %}
+                <button class="btn btn-signup btn-lg">Save</button>
+            </form>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

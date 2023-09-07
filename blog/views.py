@@ -1,8 +1,9 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
+from .models import Comment
 
 
 class PostList(generic.ListView):
@@ -10,6 +11,7 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
     paginate_by = 6
+
 
 class PostDetail(View):
 
@@ -40,7 +42,7 @@ class PostDetail(View):
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True 
-        
+
         comment_form = CommentForm(data=request.POST)
 
         if comment_form.is_valid():
@@ -74,3 +76,16 @@ class PostLike(View):
         else:
             post.likes.add(request.user)
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+class PostEdit(generic.UpdateView):
+    model = Comment
+    template_name = 'edit_comment.html'
+    fields = ['body']
+
+
+def delete(request, id):
+    slug = request.POST.get('slug', '')
+    comment = Comment.objects.get(id=id)
+    comment.delete()
+    return redirect(reverse('post_detail', args=[slug]))
