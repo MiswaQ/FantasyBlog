@@ -16,6 +16,6 @@ class UrlsTest(TestCase):
 
     def test_delete_url(self):
         response = self.client.post('delete', args=['test-post'])
-    
+
     def test_edit_url(self):
         response = self.client.get(reverse('edit_comment', args=[1]))
