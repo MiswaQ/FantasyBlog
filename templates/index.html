@@ -30,7 +30,6 @@
                             <div class="image-container">
                                 <img class="card-img-top img-fluid" src="{{ post.featured_image.url }}">
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
@@ -38,6 +37,7 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>                   
                             <hr />                        
+                            <p class="author text-info h6">Author: {{ post.author }}</p>
                             <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>{{ post.number_of_likes }}</p>   
                         </div>
                     </div>
