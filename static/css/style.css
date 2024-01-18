@@ -17,12 +17,8 @@ body {
     font-weight: 300;
 }
 
-.light-bg {
-    background-color: #675e5e;
-}
-
 .dark-bg {
-    background-color: #445261;
+    background-color: #000000;
 }
 
 .main-bg {
