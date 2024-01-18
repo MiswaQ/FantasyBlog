@@ -6,7 +6,7 @@
 <div class="masthead">
     <div class="container">
         <div class="row g-0">
-            <div class="col-md-6 masthead-text bg-white">
+            <div class="col-md-6 masthead-text bg-dark">
                 <h3 class="post-title">Follow the adventures</h3>
                 <p class="post-subtitle">Read, comment and like stories about magic and dragons...</p>
             </div>
@@ -24,14 +24,14 @@
         <div class="col-12 mt-3 left">
             <div class="row">
             {% for post in post_list %}
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="card">
                         <a href="{% url 'post_detail' post.slug %}" class="post-link">
                         <div class="card-header">
                             <h2 class="card-title">{{ post.title }}</h2>
                           </div>
-                        <div class="card-body">
-                            <div class="image-container">
+                        <div class="col-md-5 card-body">
+                            <div class="image-container float-right">
                                 <img class="card-img-top" src="{{ post.featured_image.url }}">
                             </div>
                             </a>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-            {% if forloop.counter|divisibleby:3 %}
+            {% if forloop.counter|divisibleby:1 %}
             </div>
             <div class="row">
             {% endif %}
