@@ -9,14 +9,6 @@ body {
     color: #ffffff;
 }
 
-.red-o {
-    color: #E84610;
-}
-
-.thin {
-    font-weight: 300;
-}
-
 .dark-bg {
     background-color: #000000;
 }
@@ -26,24 +18,11 @@ body {
 }
 
 .card {
-    border: none;
     background-color: transparent;
 }
 
-.image-container {
-    position: relative;
-}
-
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #23BBBB;
-}
-
 .author {
-    color: white;
+    color: #23BBBB;
     margin: 4px;
     text-transform: uppercase;
 }
