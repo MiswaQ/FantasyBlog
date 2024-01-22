@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
 
         <!-- Blog Entries Column -->
@@ -26,20 +26,25 @@
             {% for post in post_list %}
                 <div class="col-md-12">
                     <div class="card">
-                        <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                        <div class="card-header">
-                            <!-- <h2 class="card-title">{{ post.title }}</h2> -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="card-img" src="{{ post.featured_image.url }}">
                         </div>
-                        <div class="col-md-5 card-body">
-                            <div class="image-container">
-                                <img class="card-img-top" src="{{ post.featured_image.url }}">
-                                <h2 class="card-title">{{ post.title }}</h2>
-                            </a>
-                                <p class="text-white">{{ post.excerpt }}</p>
+                        <div class="col-sm-6">
+                            <div class="col-sm-6 card-body-left">
+                                <!-- <h2 class="card-title">{{ post.title }}</h2> -->
+                                <a href="{% url 'post_detail' post.slug %}" class="post-link">
+                                <div class="image-container">
+                                    <h2 class="card-title">{{ post.title }}</h2>
+                                </a>
+                                    <p class="text-white">{{ post.excerpt }}</p>
+                                </div>
+                                <p class="author text-info h6">Author: {{ post.author }}</p>
+                                <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>{{ post.number_of_likes }}</p>
+                                <hr>
                             </div>
-                            <p class="author text-info h6">Author: {{ post.author }}</p>
-                            <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>{{ post.number_of_likes }}</p>
                         </div>
+                    </div>
                     </div>
                 </div>
             {% if forloop.counter|divisibleby:1 %}
