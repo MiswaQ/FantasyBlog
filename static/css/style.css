@@ -118,12 +118,6 @@ body {
     text-decoration: none;
 }
 
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
 .btn-like {
     color: #E84610;
     border: none;
@@ -132,7 +126,33 @@ body {
 
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #a82c03;
+    background: transparent;
+    border: none;
+}
+
+.btn-trash {
+    color: #23BBBB;
+    border: none;
+    background: transparent;
+}
+
+.btn-trash:hover,
+.btn-trash:active {
+    color: #445261;
+    background: transparent;
+    border: none;
+}
+
+.btn-edit {
+    color: #23BBBB;
+    border: none;
+    background: transparent;
+}
+
+.btn-edit:hover,
+.btn-edit:active {
+    color: #445261;
     background: transparent;
     border: none;
 }
