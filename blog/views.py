@@ -1,9 +1,8 @@
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Comment, EditComments
 from .forms import CommentForm
-from .models import Comment
 
 
 class PostList(generic.ListView):
@@ -78,10 +77,14 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class PostEdit(generic.UpdateView):
-    model = Comment
-    template_name = 'edit_comment.html'
-    fields = ['body']
+# class PostEdit(generic.UpdateView):
+#     model = Comment
+#     template_name = 'edit_comment.html'
+#     fields = ['body']
+
+
+class EditComments(View):
+    
 
 
 def delete(request, id):

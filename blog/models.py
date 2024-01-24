@@ -44,3 +44,12 @@ class Comment(models.Model):
     
     def get_absolute_url(self):
         return reverse('post_detail', args=[str(self.post.slug)])
+
+
+class EditComments(models.Model):
+    comment = models.ForeignKey(Comment, on_delete=models.CASCADE)
+    body = models.TextField()
+    edited_on = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"edited {self.body} by {self.name}"
