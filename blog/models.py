@@ -52,4 +52,4 @@ class EditComments(models.Model):
     edited_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"edited {self.body} by {self.name}"
+        return f"edited comment {self.comment.body}"
