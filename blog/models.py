@@ -48,7 +48,7 @@ class Comment(models.Model):
 
 class EditComments(models.Model):
     comment = models.ForeignKey(Comment, on_delete=models.CASCADE)
-    body = models.TextField()
+    edited_body = models.TextField()
     edited_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):

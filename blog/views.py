@@ -95,11 +95,18 @@ class EditComments(View):
             {'edit_comment': edit_comment, 'edit_comments_form': edit_comments_form},
         )
     
-    def get(self, request, pk, *args, **kwargs):
+    def post(self, request, pk, *args, **kwargs):
         edit_comment = get_object_or_404(Comment, id=pk)
         edit_comments_form = CommentForm(data=request.POST, instance=edit_comment)
         if edit_comments_form.is_valid():
             edit_comments_form.save()
+            EditComments.objects.create(comment=edit_comment, edited_body=edited_comment_body)
+            return redirect(reverse('post_detail', args=[str(edit_comment.post.slug)]))
+        return render(
+            request,
+            self.template_name,
+            {'edit_comment': edit_comment, 'edit_comments_form': edit_comments_form},
+        )
             
 
 
@@ -107,5 +114,4 @@ def delete(request, id):
     slug = request.POST.get('slug', '')
     comment = Comment.objects.get(id=id)
     comment.delete()
-
     return redirect(reverse('post_detail', args=[slug]))
