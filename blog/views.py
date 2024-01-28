@@ -100,7 +100,6 @@ class EditComments(View):
         edit_comments_form = CommentForm(data=request.POST, instance=edit_comment)
         if edit_comments_form.is_valid():
             edit_comments_form.save()
-            EditComments.objects.create(comment=edit_comment, edited_body=edited_comment_body)
             return redirect(reverse('post_detail', args=[str(edit_comment.post.slug)]))
         return render(
             request,
