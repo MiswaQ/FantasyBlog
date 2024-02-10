@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fantasyblog-cae828f12eb7.herokuapp.com', '8000-miswaq-fantasyblog-zoa3n7b3378.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['fantasyblog-cae828f12eb7.herokuapp.com', '8000-miswaq-fantasyblog-zoa3n7b3378.ws-eu108.gitpod.io']
 
 
 # Application definition
