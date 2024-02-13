@@ -2,8 +2,12 @@ body {
     background-color: #F9FAFC;
 }
 
-p {
+h1, h2, h3 {
     font-family: "Merriweather", serif;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
 }
 
 .brand {
