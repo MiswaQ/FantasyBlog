@@ -122,3 +122,10 @@ p {
     background: transparent;
     border: none;
 }
+
+@media screen and (max-width: 430px) {
+    .masthead {
+        margin-top: -35px;
+        height: 25vh;
+    }
+}
