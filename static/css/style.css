@@ -124,7 +124,7 @@ p {
 }
 
 @media screen and (max-width: 477px) {
-    .masthead {
+    .post-h {
         margin-top: -35px;
         height: 25vh;
     }
