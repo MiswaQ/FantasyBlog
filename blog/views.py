@@ -77,12 +77,6 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-# class PostEdit(generic.UpdateView):
-#     model = Comment
-#     template_name = 'edit_comment.html'
-#     fields = ['body']
-
-
 class EditComments(View):
     template_name = 'edit_comment.html'
 
@@ -107,7 +101,6 @@ class EditComments(View):
             {'edit_comment': edit_comment, 'edit_comments_form': edit_comments_form},
         )
             
-
 
 def delete(request, id):
     slug = request.POST.get('slug', '')
