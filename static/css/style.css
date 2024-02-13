@@ -11,8 +11,8 @@ p {
 }
 
 .brand {
-    font-family: "Work Sans", sans-serif;
-    font-size: 1.4rem;
+    font-family: "Merriweather", serif;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #ffffff;
 }
@@ -122,6 +122,8 @@ p {
     background: transparent;
     border: none;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 477px) {
     .post-h {
