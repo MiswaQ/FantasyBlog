@@ -123,7 +123,7 @@ p {
     border: none;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 477px) {
     .masthead {
         margin-top: -35px;
         height: 25vh;
