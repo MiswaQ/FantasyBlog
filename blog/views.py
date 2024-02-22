@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from .models import Post, Comment, EditComments
 from .forms import CommentForm
 
+# Defines view functions for handling HTTP requests related to blog posts and comments.
 
 class PostList(generic.ListView):
     model = Post

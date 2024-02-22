@@ -5,6 +5,7 @@ from django.shortcuts import reverse
 
 STATUS = ((0, 'Draft'), (1, 'Published'))
 
+# Defines database models for blog posts and comments.
 
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)

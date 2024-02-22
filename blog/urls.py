@@ -1,6 +1,7 @@
 from .views import PostList, PostDetail, PostLike, delete, EditComments
 from django.urls import path
 
+# URL configurations for routing requests to views in the blog application.
 
 urlpatterns = [
     path('', PostList.as_view(),  name='home'),
