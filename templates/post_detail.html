@@ -2,7 +2,7 @@
 {% block content %}
 
 {% load crispy_forms_tags %}
-
+<!-- Post header, title, author, created time and image -->
 <div class="masthead post-h">
     <div class="container">
         <div class="row g-0">
@@ -24,11 +24,12 @@
     <div class="row">
         <div class="col card mb-4 mt-3 left top">
             <div class="card-body text-white">
-                <!-- The post content goes inside the card-text. -->
-                <!-- Use the | safe filter inside the template tags -->
+                <!-- The post content goes inside the p class card-text -->
+                <!-- Using the | safe filter inside the template tags -->
                 <p class="card-text">
                     {{ post.content | safe }}
                 </p>
+                <!-- Like and get a count on how many likes there is and authenticate who likes -->
                 <div class="row">
                     <div class="col-1">
                         <strong>
@@ -50,7 +51,7 @@
                     <div class="col-1">
                         {% with comments.count as total_comments %}
                         <strong class="text-secondary"><i class="far fa-comments"></i>
-                            <!-- Our total_comments variable goes before the closing strong tag -->
+                            <!-- The total_comments variable goes before the closing strong tag -->
                             {{ total_comments }}</strong>
                         {% endwith %}
                     </div>
@@ -70,7 +71,7 @@
                 {% for comment in comments %}
                 <div class="comments" style="padding: 10px;">
                     <p class="font-weight-bold">
-                        <!-- The commenter's name goes here. Check the model if you're not sure what that is -->
+                        <!-- The commenter's name goes here -->
                         {{ comment.name }}
                         <span class=" text-muted font-weight-normal">
                             <!-- The comment's created date goes here -->
