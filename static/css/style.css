@@ -50,16 +50,7 @@ p {
     position: relative;
 }
 
-.post-link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .post-sign {
-    color: #23BBBB;
-}
-
-.post-link:hover {
     color: #23BBBB;
 }
 
@@ -73,10 +64,21 @@ p {
     color: lightgray;
 }
 
+/* Links */
+.post-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.post-link:hover {
+    color: #23BBBB;
+}
+
 .l-blue {
     color: #23BBBB;
 }
 
+/* Buttons color, shape and sizes */
 .btn-signup {
     background-color: #23BBBB;
     color: #fff;
@@ -124,7 +126,6 @@ p {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 477px) {
     .post-h {
         margin-top: -35px;
