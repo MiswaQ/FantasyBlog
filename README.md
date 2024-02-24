@@ -63,6 +63,33 @@ The images on teh blog are found in different pages:
 - [Second blogpost WoT ](https://www.sensacine.com/noticias/series/noticia-18580125/)
 - [Third blogpost GoT ](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
 
+### The Icon
+The icons are taken from the [Fontawesome](https://fontawesome.com/) website.
+
+#### Navigation bar
+[Navbar desktop](https://res.cloudinary.com/miswaq/image/upload/v1708789993/Fantasy/Navbar_desktop_uwecfo.png)
+<br>
+The navigation bar is at the top of everypage, making it easy for the user to navigate on the blog.
+<hr>
+[Navbar mobile](https://res.cloudinary.com/miswaq/image/upload/v1708789992/Fantasy/Navbar_mobile_vohkkp.png)
+<br>
+The navigation bar on a mobile device has a collapsable menu.
+
+#### Footer
+[Footer](https://res.cloudinary.com/miswaq/image/upload/v1708789992/Fantasy/Footer_yncmv7.png)
+<br>
+The footer is at the bottom of every page, giving the user information about who has created the blog and social links.
+
+#### The home page
+[The home page](https://res.cloudinary.com/miswaq/image/upload/v1708790585/Fantasy/The_homepage_pm3vol.png)
+<br>
+The homepage gives the user a good ide of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
+
+
+
+
+
+
 
 
 
