@@ -1,8 +1,12 @@
 # Fantasy Blog PP4-project
+![HomePage](https://res.cloudinary.com/miswaq/image/upload/v1708780921/Fantasy/FirstPage_jb11bl.png)
 
-Fantasy Blog is a place that wish to deliver a taste of some good fantasy books. Stories about Magic and Dragons!
+Fantasy Blog is a place that wish to deliver a taste of some good fantasy books.
 <br>
-And here the user is able to interract with other users. To share there views with by commenting posts and show love by liking.
+Stories about Magic and Dragons!
+<br>
+The user is able to interact and connect with other users. To share their views by
+commenting posting and show love by liking.
 <br>
 <br>
 Here is a link for you to go visit the page: [Fantasy Blog](https://fantasyblog-cae828f12eb7.herokuapp.com/)
