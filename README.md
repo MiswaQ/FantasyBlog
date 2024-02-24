@@ -12,6 +12,16 @@ commenting posting and show love by liking.
 Here is a link for you to go visit the page: [Fantasy Blog](https://fantasyblog-cae828f12eb7.herokuapp.com/)
 <br>
 <br>
+This blog was developed by following along with Django Blog from the Code institute program.
+During the development of this blog I filed the code and added code so that
+it would suit my own needs for this blog.
+<br>
+<br>
+The user can sign up in order to like, comment and edit their own comments on the blog post.
+The admin can log in to create, readd, update, approve, and delete posts and comments (CRUD)
+
+
+
 ###### HomePage
 ![HomePage](https://res.cloudinary.com/miswaq/image/upload/v1694216457/homepage_ydbsw5.jpg)
 <br>
