@@ -20,6 +20,58 @@ it would suit my own needs for this blog.
 The user can sign up in order to like, comment and edit their own comments on the blog post.
 The admin can log in to create, readd, update, approve, and delete posts and comments (CRUD)
 
+### As a user I can:
+1. Create an account
+2. Login to page
+3. Like a post
+4. Comment a post
+5. Edit my own comments
+6. Delete my own comments
+
+#### Creating the project in Gitpod
+- Creating the django project
+- Deploying to Heroku
+- Create database Models
+- Building the Admin site
+- Setting up Templates
+- Installing Allauth for sign in, sign up and log out pages
+- Installing Crispy forms to style to the Admin django account
+- Final Deployment
+
+### Wireframes
+I have used Marvelapp to create the Wireframes.
+
+### Home page desktop
+Image of the landing page wireframe
+![HomePage Desktop](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_desktop_j8odza.png)
+
+### Home page mobile
+Image of the landing page wireframe
+![HomePage Mobile](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_mobile_hlroba.png)
+
+### The Fonts
+I chose the fonts for this web design via [Fontpair](https://www.fontpair.co/all).
+![FontPair Chosen](https://res.cloudinary.com/miswaq/image/upload/v1708787994/Fantasy/fontpair_l5uod1.png)
+
+### The Colors
+I wanted to have a dark themed design with popping links. The specific colors resonate with how I have
+seen fantasy themed websites before, so that´s why I chose the colors I have.
+
+### The Images
+The images on teh blog are found in different pages:
+- [First blogpost LoR ](https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png)
+- [Second blogpost WoT ](https://www.sensacine.com/noticias/series/noticia-18580125/)
+- [Third blogpost GoT ](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
+
+
+
+
+### Credits
+Images taken from:
+1. LoR https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png
+2. WoT https://www.sensacine.com/noticias/series/noticia-18580125/
+3. GoT https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg
+
 
 
 ###### HomePage
@@ -121,11 +173,7 @@ And I did as many tests that was possible for me at the finnishing days.
 <br>
 <br>
 
-### Credits
-Images taken from:
-1. LoR https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png
-2. WoT https://www.sensacine.com/noticias/series/noticia-18580125/
-3. GoT https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg
+
 
 
 Intro text used from:
