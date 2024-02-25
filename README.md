@@ -136,6 +136,86 @@ The user will get an alert that the comment is going to bbe validated before it 
 * [Favicon Generator](https://www.favicon-generator.org/): Favicon.
 * [Marvelapp](https://marvelapp.com/): For wireframes.
 
+## Manual testing
+Throughout this project I have manually tested if the design looks good and is working both on my computer and on mobile device. Throughout the buildup I´ve used the inspect tool to always see how the code affected the appearance of my site and if any errors occured in the console.
+I´v used [Stack Overflow](https://stackoverflow.com/) and I have looked for solution in [Slack](https://slack.com/) if I´ve come across any issues that I could not solve myself before contacting any tutor about the specific issue.
+<br>
+<br>
+I´ve tested all of my code in validation services at the end of the project to find any errors or issues.
+<br>
+I´ve used LightHouse tool and got these results:
+IMG goes here ------
+
+### Issues
+There were a lot of personal obstacles as I was doing this project since I´ve had some visual problems with my eyes and most of the time developing this project I have not been able to see clearly. I got help from CI Studentcare and pushed my course up a bit. As I have been traveling while studying I´ve struggled with keeping up with the schedule. When arriving back home to Sweden I had a family member needing me to stay at the hospital for a long period of time and this also made it difficult for me to study without interruptions. This caused me to stress the first deployment and not finishing everything properly both within the code and the README.md file. Thanks to the accessor for the site feedback I´ve now been able to improve my code.
+
+### Bugs
+How it looked like:
+<br>
+![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866726/Fantasy/FailFooter_blkqvn.png)
+
+How it looks like now:
+<br>
+![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866724/Fantasy/FixedFooter_obhi5t.png)
+<br>
+<br>
+Icons at the bottom were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+
+### Unfixed bugs
+There are no unfixed bugs.
+
+## Deployment
+
+### Heroky Deployment
+The site was deployed to Heroku and these steps was made:
+1. asd
+
+The live links can be found here:
+
+### Clone GitHub repository instructions
+It is possible to clone this repository, to be able to work alongside me for this project it is
+required to have a free GitHub account and then go through the steps as follows:
+<br>
+1. Log in to your GitHub account.
+2. In the GitHub repository, navigate to **Code** and 'copy' the **HTTPS link**.
+3. Write 'git clone' in the terminal, paste the link and press 'enter'.
+4. Now you should have everything you need to work on the project.
+5. Happy coding!
+
+## Credit and Contact
+
+### Code
+
+I want to once again thank the assessor for the site feedback to improve my code. The improvements I´ve made based on this is:
+ - Re-designe the whole site to better suit the common purpose of the site. I´ve made a better flow with the colors and themes so that everything works and flows better design wise.
+ - Added testing write-ups and more evidence of the manual testing.
+ - Added images of my wireframe to the README.md file.
+
+### Content and Media
+
+Images taken from:
+<br>
+1. [Lord of The Rings](https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png)
+2. [Wheel of Time](https://www.sensacine.com/noticias/series/noticia-18580125/)
+3. [Game of Thromes](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
+<br>
+
+Blog post text used from:
+<br>
+
+1. [Lord of The Rings](https://edgestudio.com/script/lord-of-the-rings-opening-monologue/#:~:text=It%20began%20with%20the%20forging,above%20all%20else%20desire%20power./) Text.
+2. [Wheel of Time](http://www.foreverlostinliterature.com/2017/03/first-chapter-first-paragraph-tuesday.html#:~:text=In%20one%20Age%2C%20called%20the,But%20it%20was%20a%20beginning./) Text.
+3. [Game of Thromes](https://bookatlas.wordpress.com/2014/03/13/a-game-of-thrones/#:~:text=First%20Sentence%3A%20%E2%80%9CWe%20should%20start,Summers%20span%20decades./) Text.
+
+### Contact
+
+#### Please contact me at
+-**Email** 'miswaq@gmail.com'
+
+I´ve chosen not to include any contact info within the webpage.
+<br>
+<br>
+This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
 
 
 
