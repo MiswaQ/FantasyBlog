@@ -86,6 +86,57 @@ The footer is at the bottom of every page, giving the user information about who
 <br>
 The homepage gives the user a good ide of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
 
+#### Sign Up page
+![Sign Up page](https://res.cloudinary.com/miswaq/image/upload/v1708863863/Fantasy/Sign_Up_page_aq4hag.png)
+<br>
+The Sign Up page instructs the user to register to the page.
+Once the user registers, an alert will appear to confirm that they have registered.
+
+#### Sign In page
+![Sign In page](https://res.cloudinary.com/miswaq/image/upload/v1708863862/Fantasy/Sign_In_page_iygc8s.png)
+<br>
+The Sign In page gives the user a form to sign in to their account so that they can like or comment on posts. Once the user is logged in, an alert will appear to confirm that they have logged in.
+
+#### LogOut page
+![LogOut page](https://res.cloudinary.com/miswaq/image/upload/v1708863861/Fantasy/Sign_Out_page_busxj0.png)
+<br>
+The logout page provides the user to log out from their account, but first a question to confirm that the user wanted to log out, and a button to continue to log out. The user will then be redirected to the home page.
+
+#### Comments and likes
+![Comments and likes](https://res.cloudinary.com/miswaq/image/upload/v1708863861/Fantasy/Comments_and_likes_pieqch.png)
+<br>
+The comments appear as a list of comments for the user to see each comment and by who the comment was made.
+
+#### Comment form
+![Comment form](https://res.cloudinary.com/miswaq/image/upload/v1708863860/Fantasy/Comment_form_zqgzj5.png)
+<br>
+The comment form is at the end of everyblog post so that the user is able to comment after they´ve read the post if logged in.
+The user will get an alert that the comment is going to bbe validated before it is published.
+
+### Languages
+* HTML
+* CSS
+* Python
+* JavaScript
+
+### Framework, Libraries & Programs
+* Django
+* Bootstrap
+* Summernote
+* Cloudinary
+* ElephantSql
+* Google Fonts
+* Font Awesome
+
+### Platforms
+* [GitHub](https://github.com/): For storing code remotely and deployment.
+* [GitPod](https://www.gitpod.io/): IDE for project development.
+
+### Other Tools
+* [Favicon Generator](https://www.favicon-generator.org/): Favicon.
+* [Marvelapp](https://marvelapp.com/): For wireframes.
+
+
 
 
 
