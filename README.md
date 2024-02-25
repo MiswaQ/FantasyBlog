@@ -43,14 +43,17 @@ I have used Marvelapp to create the Wireframes.
 
 ### Home page desktop
 Image of the landing page wireframe
+<br>
 ![HomePage Desktop](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_desktop_j8odza.png)
 
 ### Home page mobile
 Image of the landing page wireframe
+<br>
 ![HomePage Mobile](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_mobile_hlroba.png)
 
 ### The Fonts
 I chose the fonts for this web design via [Fontpair](https://www.fontpair.co/all).
+<br>
 ![FontPair Chosen](https://res.cloudinary.com/miswaq/image/upload/v1708787994/Fantasy/fontpair_l5uod1.png)
 
 ### The Colors
@@ -225,80 +228,6 @@ This blog was created for my PP4 Project for the Full Stack Software Developer p
 
 
 
-### Credits
-Images taken from:
-1. LoR https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png
-2. WoT https://www.sensacine.com/noticias/series/noticia-18580125/
-3. GoT https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg
-
-
-
-###### HomePage
-![HomePage](https://res.cloudinary.com/miswaq/image/upload/v1694216457/homepage_ydbsw5.jpg)
-<br>
-<br>
-###### Card 1
-![Card 1](https://res.cloudinary.com/miswaq/image/upload/v1694217429/Card_1_sgihhn.png)
-<br>
-<br>
-###### Page 1
-![Page 1](https://res.cloudinary.com/miswaq/image/upload/v1694217430/Page_1_lrfkr8.png)
-<br>
-<br>
-###### Card 2
-![Card 2](https://res.cloudinary.com/miswaq/image/upload/v1694217429/Card_2_jelc3i.png)
-<br>
-<br>
-###### Page 2
-![Page 2](https://res.cloudinary.com/miswaq/image/upload/v1694217431/Page_2_rwcfay.png)
-<br>
-<br>
-###### Card 3
-![Card 3](https://res.cloudinary.com/miswaq/image/upload/v1694217429/Card_3_irwkyf.png)
-<br>
-<br>
-###### Page 3
-![Page 3](https://res.cloudinary.com/miswaq/image/upload/v1694217430/Page_3_bwippt.png)
-<br>
-<br>
-###### NavBar
-![NavBar](https://res.cloudinary.com/miswaq/image/upload/v1694217428/Navbar_fw7yrp.png)
-<br>
-<br>
-###### Header
-![Header](https://res.cloudinary.com/miswaq/image/upload/v1694217429/Header_i2qsae.png)
-<br>
-<br>
-### User:
-#### As a user I can:
-1. Creat an account
-2. Login to page
-3. Like a post
-4. Comment a post
-5. Edit a comment done by user
-6. Delete a comment done by user
-<br>
-<br>
-
-###### Sign Up
-![Sign Up](https://res.cloudinary.com/miswaq/image/upload/v1694218516/Sign_Up_v9pit4.png)
-<br>
-<br>
-
-###### Sign In
-![Sign In](https://res.cloudinary.com/miswaq/image/upload/v1694218517/Sign_In_r2l2dw.png)
-<br>
-<br>
-
-###### Like post
-![Like post](https://res.cloudinary.com/miswaq/image/upload/v1694218515/Like_asqqi4.png)
-<br>
-<br>
-
-###### Comment post
-![Comment post](https://res.cloudinary.com/miswaq/image/upload/v1694218513/Comment_bsr2ur.png)
-<br>
-<br>
 
 ###### Edit Delete post
 ![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1694218511/Edit_Delete_opfnhh.png)
