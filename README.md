@@ -169,11 +169,39 @@ There are no unfixed bugs.
 
 ## Deployment
 
-### Heroky Deployment
+### Heroku Deployment
 The site was deployed to Heroku and these steps was made:
-1. asd
+1. Create a Heroku account.
+2. Create new app on Heroku.
+   - Go to Heroku Dashboard.
+   - Click the "New" button.
+   - Click the "Create new app" button.
+   - Choose a name for your app.
+   - Choose a region.
+   - Click the "Create app" button.
+3. In the app click the "Deploy" button.
+   - Connect your Heroku account to your GitHub account and then click the "Deploy" button.
 
-The live links can be found here:
+### Cloudinary
+Get cloudinary name,api key and api secreet:
+1. Go to [Cloudinary](https://cloudinary.com/) homepage.
+2. SignIn/LogIn.
+3. Go to Dashboard.
+4. At the top of the page you have your cloud name, api key and api secret.
+5. To see the api secret. Hover over the api key and click the eye.
+6. Copy the key and paste to config vars in Heroku and into env.py file.
+
+### ElephantSQL
+Create Database in ElephantSQL
+1. Go to [ElephantSQL](https://elephantsql.com/) homepage.
+2. Create new instance.
+3. Select name for your database and choose the free plan.
+4. Click "Select Region".
+5. Choose a region.
+6. Click "Review".
+7. Click "Create Instance".
+8. Choose the name of your database to open the dashboard.
+9. Use the URL of your database to connect to your Django project.
 
 ### Clone GitHub repository instructions
 It is possible to clone this repository, to be able to work alongside me for this project it is
