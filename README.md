@@ -136,7 +136,6 @@ The user will get an alert that the comment is going to bbe validated before it 
 * [GitPod](https://www.gitpod.io/): IDE for project development.
 
 ### Other Tools
-* [Favicon Generator](https://www.favicon-generator.org/): Favicon.
 * [Marvelapp](https://marvelapp.com/): For wireframes.
 
 ## Manual testing
