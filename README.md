@@ -136,7 +136,6 @@ The user will get an alert that the comment is going to bbe validated before it 
 * [GitPod](https://www.gitpod.io/): IDE for project development.
 
 ### Other Tools
-* [Favicon Generator](https://www.favicon-generator.org/): Favicon.
 * [Marvelapp](https://marvelapp.com/): For wireframes.
 
 ## Manual testing
@@ -148,6 +147,12 @@ I´ve tested all of my code in validation services at the end of the project to 
 <br>
 I´ve used LightHouse tool and got these results:
 IMG goes here ------
+
+#### User Testing
+This is an image of the user testing:
+<br>
+![User Testing](https://res.cloudinary.com/miswaq/image/upload/v1710412330/ManualTesting_q6kqsi.png)
+
 
 ### Issues
 There were a lot of personal obstacles as I was doing this project since I´ve had some visual problems with my eyes and most of the time developing this project I have not been able to see clearly. I got help from CI Studentcare and pushed my course up a bit. As I have been traveling while studying I´ve struggled with keeping up with the schedule. When arriving back home to Sweden I had a family member needing me to stay at the hospital for a long period of time and this also made it difficult for me to study without interruptions. This caused me to stress the first deployment and not finishing everything properly both within the code and the README.md file. Thanks to the accessor for the site feedback I´ve now been able to improve my code.
@@ -169,11 +174,39 @@ There are no unfixed bugs.
 
 ## Deployment
 
-### Heroky Deployment
+### Heroku Deployment
 The site was deployed to Heroku and these steps was made:
-1. asd
+1. Create a Heroku account.
+2. Create new app on Heroku.
+   - Go to Heroku Dashboard.
+   - Click the "New" button.
+   - Click the "Create new app" button.
+   - Choose a name for your app.
+   - Choose a region.
+   - Click the "Create app" button.
+3. In the app click the "Deploy" button.
+   - Connect your Heroku account to your GitHub account and then click the "Deploy" button.
 
-The live links can be found here:
+### Cloudinary
+Get cloudinary name,api key and api secreet:
+1. Go to [Cloudinary](https://cloudinary.com/) homepage.
+2. SignIn/LogIn.
+3. Go to Dashboard.
+4. At the top of the page you have your cloud name, api key and api secret.
+5. To see the api secret. Hover over the api key and click the eye.
+6. Copy the key and paste to config vars in Heroku and into env.py file.
+
+### ElephantSQL
+Create Database in ElephantSQL
+1. Go to [ElephantSQL](https://elephantsql.com/) homepage.
+2. Create new instance.
+3. Select name for your database and choose the free plan.
+4. Click "Select Region".
+5. Choose a region.
+6. Click "Review".
+7. Click "Create Instance".
+8. Choose the name of your database to open the dashboard.
+9. Use the URL of your database to connect to your Django project.
 
 ### Clone GitHub repository instructions
 It is possible to clone this repository, to be able to work alongside me for this project it is
