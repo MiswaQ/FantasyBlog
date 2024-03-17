@@ -155,6 +155,8 @@ I´v used [Stack Overflow](https://stackoverflow.com/) and I have looked for sol
 <br>
 <br>
 I´ve tested all of my code in validation services at the end of the project to find any errors or issues.
+Validation completed with no issues in W3C validation.
+
 <br>
 I´ve used LightHouse tool and got these results:
 <br>
