@@ -146,7 +146,8 @@ I´v used [Stack Overflow](https://stackoverflow.com/) and I have looked for sol
 I´ve tested all of my code in validation services at the end of the project to find any errors or issues.
 <br>
 I´ve used LightHouse tool and got these results:
-IMG goes here ------
+<br>
+![LightHouse](https://res.cloudinary.com/miswaq/image/upload/v1710681052/LightHouse_ltcfh6.png)
 
 #### User Testing
 This is an image of the user testing:
