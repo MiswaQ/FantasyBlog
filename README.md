@@ -20,6 +20,17 @@ it would suit my own needs for this blog.
 The user can sign up in order to like, comment and edit their own comments on the blog post.
 The admin can log in to create, readd, update, approve, and delete posts and comments (CRUD)
 
+## UX
+### AmIResponsive
+This is to show how the page response.
+<br>
+![AmIResponsive](https://res.cloudinary.com/miswaq/image/upload/v1710683350/amiresponsive_je8pkh.png)
+
+
+### Site goals
+- I have created a blog so that people interested in books and particularly fantasy books can connect with each other.
+- The blog provides the user a possibility to sign in to like/unlike and comment on each post.
+
 ### As a user I can:
 1. Create an account
 2. Login to page
