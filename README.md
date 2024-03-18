@@ -283,55 +283,6 @@ This blog was created for my PP4 Project for the Full Stack Software Developer p
 
 
 
-
-
-
-
-
-
-
-
-### Issues
-<br>
-<br>
-<br>
-
-### BugFix
-<br>
-
-<br>
-<br>
-
-### Testing
-I had errors apparing as I was testing and I googled to find out what to do. <br>
-I found a way around that error by changing the DATABASES in settings.py. <br>
-And I did as many tests that was possible for me at the finnishing days.
-<br>
-<br>
-
-
-
-
-Intro text used from:
-1. LoR https://edgestudio.com/script/lord-of-the-rings-opening-monologue/#:~:text=It%20began%20with%20the%20forging,above%20all%20else%20desire%20power.
-2. WoT http://www.foreverlostinliterature.com/2017/03/first-chapter-first-paragraph-tuesday.html#:~:text=In%20one%20Age%2C%20called%20the,But%20it%20was%20a%20beginning.
-3. GoT https://bookatlas.wordpress.com/2014/03/13/a-game-of-thrones/#:~:text=First%20Sentence%3A%20%E2%80%9CWe%20should%20start,Summers%20span%20decades.
-<br>
-<br>
-
-### TECHNOLOGIES USED
-
-* HTML.
-* CSS.
-* JavaScript.
-* Python + Django
-* Heroku
-* Cloudinary
-* ElephantSql
-* Summernote
-<br>
-<br>
-
 ### Super User
 <br>
 
@@ -339,9 +290,6 @@ Intro text used from:
 	Email: admin@home.se
 	Password: asdfjkl00
 <br>
-<br>
-
-This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
 <br>
 
 Zekroum Abdulrahman Aregai, 2023
