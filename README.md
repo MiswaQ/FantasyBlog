@@ -127,6 +127,11 @@ The comments appear as a list of comments for the user to see each comment and b
 The comment form is at the end of everyblog post so that the user is able to comment after they´ve read the post if logged in.
 The user will get an alert that the comment is going to bbe validated before it is published.
 
+#### Edit Delete post
+![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1710771055/Edit_Delete_oo2lkq.png)
+<br>
+By clicking the edit icon to the left or trash, you can change and edit your comments.
+
 ### Languages
 * HTML
 * CSS
@@ -159,8 +164,9 @@ Validation completed with no issues in W3C validation.
 
 <br>
 I´ve used LightHouse tool and got these results:
-<br>
-![LightHouse](https://res.cloudinary.com/miswaq/image/upload/v1710681052/LightHouse_ltcfh6.png)
+
+![Light House](https://res.cloudinary.com/miswaq/image/upload/v1710681052/LightHouse_ltcfh6.png)
+
 
 #### User Testing
 This is an image of the user testing:
@@ -182,6 +188,13 @@ How it looks like now:
 <br>
 <br>
 Icons at the bottom were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+<br>
+<br>
+I had problems deploying to heroku and found that there was an issue within requirements.txt.
+Had to do the changes to my requirements.txt:
+From - backports.zoneinfo==0.2.1
+To - backports.zoneinfo==0.2.1;python_version<"3.9"
+So that I could deploy/push to heroku
 
 ### Unfixed bugs
 There are no unfixed bugs.
@@ -276,28 +289,16 @@ This blog was created for my PP4 Project for the Full Stack Software Developer p
 
 
 
-###### Edit Delete post
-![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1694218511/Edit_Delete_opfnhh.png)
-<br>
-<br>
+
 
 ### Issues
 <br>
-There where a lot of opsticles as I was doing this project but I will list some here!
-I have had some visual problems with my eyes and most of the time I have not been able to see clearly.
-I got help from CI studentcare and pushed my course up abit with medical certificate.
-As we have been traveling while studying it has also made it hard to follow along the schedual.
-When I came back home to Sweden my mother had to get to the hospital and I was with here during that time as she dont speak the language very well.
-This is some personal issues I have had.
 <br>
 <br>
 
 ### BugFix
 <br>
-Had to do the changes again to my requirements.txt:
-From - backports.zoneinfo==0.2.1
-To - backports.zoneinfo==0.2.1;python_version<"3.9"
-So that I could deploy/push to heroku
+
 <br>
 <br>
 
