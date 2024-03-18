@@ -12,7 +12,7 @@ commenting posting and show love by liking.
 Here is a link for you to go visit the page: [Fantasy Blog](https://fantasyblog-cae828f12eb7.herokuapp.com/)
 <br>
 <br>
-This blog was developed by following along with Django Blog from the Code institute program.
+This blog was developed by following along with the Django Blog mini project from the Code Institute program.
 During the development of this blog I filed the code and added code so that
 it would suit my own needs for this blog.
 <br>
@@ -53,13 +53,9 @@ This is to show how the page response.
 I have used Marvelapp to create the Wireframes.
 
 ### Home page desktop
-Image of the landing page wireframe
-<br>
 ![HomePage Desktop](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_desktop_j8odza.png)
 
 ### Home page mobile
-Image of the landing page wireframe
-<br>
 ![HomePage Mobile](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_mobile_hlroba.png)
 
 ### The Fonts
@@ -77,7 +73,7 @@ The images on teh blog are found in different pages:
 - [Second blogpost WoT ](https://www.sensacine.com/noticias/series/noticia-18580125/)
 - [Third blogpost GoT ](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
 
-### The Icon
+### The Icons
 The icons are taken from the [Fontawesome](https://fontawesome.com/) website.
 
 #### Navigation bar
@@ -98,7 +94,7 @@ The footer is at the bottom of every page, giving the user information about who
 #### The home page
 ![The home page](https://res.cloudinary.com/miswaq/image/upload/v1708790585/Fantasy/The_homepage_pm3vol.png)
 <br>
-The homepage gives the user a good ide of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
+The homepage gives the user a good idea of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
 
 #### Sign Up page
 ![Sign Up page](https://res.cloudinary.com/miswaq/image/upload/v1708863863/Fantasy/Sign_Up_page_aq4hag.png)
@@ -124,8 +120,8 @@ The comments appear as a list of comments for the user to see each comment and b
 #### Comment form
 ![Comment form](https://res.cloudinary.com/miswaq/image/upload/v1708863860/Fantasy/Comment_form_zqgzj5.png)
 <br>
-The comment form is at the end of everyblog post so that the user is able to comment after they´ve read the post if logged in.
-The user will get an alert that the comment is going to bbe validated before it is published.
+The comment form is at the end of every blog post so that the user is able to comment after they´ve read the post if logged in.
+The user will get an alert that the comment is going to be validated before it is published.
 
 #### Edit Delete post
 ![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1710771055/Edit_Delete_oo2lkq.png)
@@ -156,7 +152,8 @@ By clicking the edit icon to the left or trash, you can change and edit your com
 
 ## Manual testing
 Throughout this project I have manually tested if the design looks good and is working both on my computer and on mobile device. Throughout the buildup I´ve used the inspect tool to always see how the code affected the appearance of my site and if any errors occured in the console.
-I´v used [Stack Overflow](https://stackoverflow.com/) and I have looked for solution in [Slack](https://slack.com/) if I´ve come across any issues that I could not solve myself before contacting any tutor about the specific issue.
+<br>
+I've used [Stack Overflow](https://stackoverflow.com/) and I have looked for solution in [Slack](https://slack.com/) if I´ve come across any issues that I could not solve myself before contacting any tutor about the specific issue.
 <br>
 <br>
 I´ve tested all of my code in validation services at the end of the project to find any errors or issues.
