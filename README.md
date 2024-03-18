@@ -160,6 +160,11 @@ I´ve tested all of my code in validation services at the end of the project to 
 Validation completed with no issues in W3C validation.
 
 <br>
+I´ve used UserStories to follow through with the planing and implimenting:
+
+![User Stories](https://res.cloudinary.com/miswaq/image/upload/v1710778211/User_Stories_qvdu9u.png)
+
+<br>
 I´ve used LightHouse tool and got these results:
 
 ![Light House](https://res.cloudinary.com/miswaq/image/upload/v1710681052/LightHouse_ltcfh6.png)
