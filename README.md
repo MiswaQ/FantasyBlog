@@ -160,7 +160,7 @@ I´ve tested all of my code in validation services at the end of the project to 
 Validation completed with no issues in W3C validation.
 
 <br>
-I´ve used UserStories to follow through with the planing and implimenting:
+I´ve used UserStories to follow through with the planing and implementing:
 
 ![User Stories](https://res.cloudinary.com/miswaq/image/upload/v1710778211/User_Stories_qvdu9u.png)
 
@@ -281,19 +281,6 @@ I´ve chosen not to include any contact info within the webpage.
 <br>
 <br>
 This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
-
-
-
-
-### Super User
-<br>
-
-	Name: Admin
-	Email: admin@home.se
-	Password: asdfjkl00
 <br>
 <br>
-
-Zekroum Abdulrahman Aregai, 2023
-
-
+Zekroum Abdulrahman Aregai, 2024
