@@ -195,19 +195,15 @@ How it looks like now:
 
 <br>
 <br>
-!!!!
 
 **The css was not loading properly**, after many attempts I finally realized that Cloudinary did not load the s†atic files when having the DeBug set to FALSE in my settings.py file. So I changed this when finishing my visual design. 
 <br>
 <br>
 How it looked like:
-(Insert image of how the homepage looked like)
-<br>
+![DeBugTrue](https://res.cloudinary.com/miswaq/image/upload/v1710853337/DeBugTrue_hiltdp.png)<br>
 <br>
 How it looks like now:
-(Insert image of the fixed homepage)
-
-!!!!
+![DeBugFalse](https://res.cloudinary.com/miswaq/image/upload/v1710853355/DeBugFalse_nrcg6f.png)
 <br>
 <br>
 
