@@ -18,7 +18,7 @@ it would suit my own needs for this blog.
 <br>
 <br>
 The user can sign up in order to like, comment and edit their own comments on the blog post.
-The admin can log in to create, readd, update, approve, and delete posts and comments (CRUD)
+The admin can log in to create, read, update, approve, and delete posts and comments (CRUD)
 
 ## UX
 ### AmIResponsive
@@ -50,7 +50,7 @@ This is to show how the page response.
 - Final Deployment
 
 ### Wireframes
-I have used Marvelapp to create the Wireframes.
+I have used Marvelapp to create these Wireframes.
 
 ### Home page desktop
 ![HomePage Desktop](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_desktop_j8odza.png)
@@ -68,7 +68,7 @@ I wanted to have a dark themed design with popping links. The specific colors re
 seen fantasy themed websites before, so that´s why I chose the colors I have.
 
 ### The Images
-The images on teh blog are found in different pages:
+The images on the blog are found in different pages:
 - [First blogpost LoR ](https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png)
 - [Second blogpost WoT ](https://www.sensacine.com/noticias/series/noticia-18580125/)
 - [Third blogpost GoT ](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
@@ -180,6 +180,10 @@ This is an image of the user testing:
 There were a lot of personal obstacles as I was doing this project since I´ve had some visual problems with my eyes and most of the time developing this project I have not been able to see clearly. I got help from CI Studentcare and pushed my course up a bit. As I have been traveling while studying I´ve struggled with keeping up with the schedule. When arriving back home to Sweden I had a family member needing me to stay at the hospital for a long period of time and this also made it difficult for me to study without interruptions. This caused me to stress the first deployment and not finishing everything properly both within the code and the README.md file. Thanks to the accessor for the site feedback I´ve now been able to improve my code.
 
 ### Bugs
+
+**Icons at the bottom** were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+<br>
+<br>
 How it looked like:
 <br>
 ![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866726/Fantasy/FailFooter_blkqvn.png)
@@ -187,9 +191,22 @@ How it looked like:
 How it looks like now:
 <br>
 ![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866724/Fantasy/FixedFooter_obhi5t.png)
+
 <br>
 <br>
-Icons at the bottom were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+!!!!
+
+**The css was not loading properly**, after many attempts I finally realized that Cloudinary did not load the s†atic files when having the .... set to TRUE/FALSE in my settings.py file. So I changed this when finishing my visual design. 
+<br>
+<br>
+How it looked like:
+(Insert image of how the homepage looked like)
+<br>
+<br>
+How it looks like now:
+(Insert image of the fixed homepage)
+
+!!!!
 <br>
 <br>
 I had problems deploying to heroku and found that there was an issue within requirements.txt.
@@ -252,7 +269,7 @@ required to have a free GitHub account and then go through the steps as follows:
 ### Code
 
 I want to once again thank the assessor for the site feedback to improve my code. The improvements I´ve made based on this is:
- - Re-designe the whole site to better suit the common purpose of the site. I´ve made a better flow with the colors and themes so that everything works and flows better design wise.
+ - Re-design the whole site to better suit the common purpose of the site. I´ve made a better flow with the colors and themes so that everything works and flows better design wise.
  - Added testing write-ups and more evidence of the manual testing.
  - Added images of my wireframe to the README.md file.
 
