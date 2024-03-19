@@ -12,13 +12,24 @@ commenting posting and show love by liking.
 Here is a link for you to go visit the page: [Fantasy Blog](https://fantasyblog-cae828f12eb7.herokuapp.com/)
 <br>
 <br>
-This blog was developed by following along with Django Blog from the Code institute program.
+This blog was developed by following along with the Django Blog mini project from the Code Institute program.
 During the development of this blog I filed the code and added code so that
 it would suit my own needs for this blog.
 <br>
 <br>
 The user can sign up in order to like, comment and edit their own comments on the blog post.
-The admin can log in to create, readd, update, approve, and delete posts and comments (CRUD)
+The admin can log in to create, read, update, approve, and delete posts and comments (CRUD)
+
+## UX
+### AmIResponsive
+This is to show how the page response.
+<br>
+![AmIResponsive](https://res.cloudinary.com/miswaq/image/upload/v1710683350/amiresponsive_je8pkh.png)
+
+
+### Site goals
+- I have created a blog so that people interested in books and particularly fantasy books can connect with each other.
+- The blog provides the user a possibility to sign in to like/unlike and comment on each post.
 
 ### As a user I can:
 1. Create an account
@@ -39,16 +50,12 @@ The admin can log in to create, readd, update, approve, and delete posts and com
 - Final Deployment
 
 ### Wireframes
-I have used Marvelapp to create the Wireframes.
+I have used Marvelapp to create these Wireframes.
 
 ### Home page desktop
-Image of the landing page wireframe
-<br>
 ![HomePage Desktop](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_desktop_j8odza.png)
 
 ### Home page mobile
-Image of the landing page wireframe
-<br>
 ![HomePage Mobile](https://res.cloudinary.com/miswaq/image/upload/v1708787995/Fantasy/index_mobile_hlroba.png)
 
 ### The Fonts
@@ -61,12 +68,12 @@ I wanted to have a dark themed design with popping links. The specific colors re
 seen fantasy themed websites before, so that´s why I chose the colors I have.
 
 ### The Images
-The images on teh blog are found in different pages:
+The images on the blog are found in different pages:
 - [First blogpost LoR ](https://theilluminerdi.com/wp-content/uploads/2022/08/image-14-2048x1153.png)
 - [Second blogpost WoT ](https://www.sensacine.com/noticias/series/noticia-18580125/)
 - [Third blogpost GoT ](https://sm.ign.com/ign_nordic/gallery/g/game-of-th/game-of-thrones-house-of-the-dragon-cast_6fw2.jpg)
 
-### The Icon
+### The Icons
 The icons are taken from the [Fontawesome](https://fontawesome.com/) website.
 
 #### Navigation bar
@@ -87,7 +94,7 @@ The footer is at the bottom of every page, giving the user information about who
 #### The home page
 ![The home page](https://res.cloudinary.com/miswaq/image/upload/v1708790585/Fantasy/The_homepage_pm3vol.png)
 <br>
-The homepage gives the user a good ide of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
+The homepage gives the user a good idea of what this blog is about, with a fantasy image of a dragon as a header, and a list of blog posts down below that. The blog posts are listed after one another to give the user an opportunity to choose which one of them the user is interested in reading more about.
 
 #### Sign Up page
 ![Sign Up page](https://res.cloudinary.com/miswaq/image/upload/v1708863863/Fantasy/Sign_Up_page_aq4hag.png)
@@ -113,8 +120,13 @@ The comments appear as a list of comments for the user to see each comment and b
 #### Comment form
 ![Comment form](https://res.cloudinary.com/miswaq/image/upload/v1708863860/Fantasy/Comment_form_zqgzj5.png)
 <br>
-The comment form is at the end of everyblog post so that the user is able to comment after they´ve read the post if logged in.
-The user will get an alert that the comment is going to bbe validated before it is published.
+The comment form is at the end of every blog post so that the user is able to comment after they´ve read the post if logged in.
+The user will get an alert that the comment is going to be validated before it is published.
+
+#### Edit Delete post
+![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1710771055/Edit_Delete_oo2lkq.png)
+<br>
+By clicking the edit icon to the left or trash, you can change and edit your comments.
 
 ### Languages
 * HTML
@@ -140,13 +152,24 @@ The user will get an alert that the comment is going to bbe validated before it 
 
 ## Manual testing
 Throughout this project I have manually tested if the design looks good and is working both on my computer and on mobile device. Throughout the buildup I´ve used the inspect tool to always see how the code affected the appearance of my site and if any errors occured in the console.
-I´v used [Stack Overflow](https://stackoverflow.com/) and I have looked for solution in [Slack](https://slack.com/) if I´ve come across any issues that I could not solve myself before contacting any tutor about the specific issue.
+<br>
+I've used [Stack Overflow](https://stackoverflow.com/) and I have looked for solution in [Slack](https://slack.com/) if I´ve come across any issues that I could not solve myself before contacting any tutor about the specific issue.
 <br>
 <br>
 I´ve tested all of my code in validation services at the end of the project to find any errors or issues.
+Validation completed with no issues in W3C validation.
+
+<br>
+
+I´ve used [User Stories](https://github.com/users/MiswaQ/projects/8) to follow through with the planing and implementing:
+
+![User Stories](https://res.cloudinary.com/miswaq/image/upload/v1710778211/User_Stories_qvdu9u.png)
+
 <br>
 I´ve used LightHouse tool and got these results:
-IMG goes here ------
+
+![Light House](https://res.cloudinary.com/miswaq/image/upload/v1710681052/LightHouse_ltcfh6.png)
+
 
 #### User Testing
 This is an image of the user testing:
@@ -158,6 +181,10 @@ This is an image of the user testing:
 There were a lot of personal obstacles as I was doing this project since I´ve had some visual problems with my eyes and most of the time developing this project I have not been able to see clearly. I got help from CI Studentcare and pushed my course up a bit. As I have been traveling while studying I´ve struggled with keeping up with the schedule. When arriving back home to Sweden I had a family member needing me to stay at the hospital for a long period of time and this also made it difficult for me to study without interruptions. This caused me to stress the first deployment and not finishing everything properly both within the code and the README.md file. Thanks to the accessor for the site feedback I´ve now been able to improve my code.
 
 ### Bugs
+
+**Icons at the bottom** were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+<br>
+<br>
 How it looked like:
 <br>
 ![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866726/Fantasy/FailFooter_blkqvn.png)
@@ -165,9 +192,30 @@ How it looked like:
 How it looks like now:
 <br>
 ![Footer](https://res.cloudinary.com/miswaq/image/upload/v1708866724/Fantasy/FixedFooter_obhi5t.png)
+
 <br>
 <br>
-Icons at the bottom were not centering properly. I found that the ms-3 class was causing the icons to be pushed to the right and when I changed to ms-1 in class (Bootstrap) it looked better.
+!!!!
+
+**The css was not loading properly**, after many attempts I finally realized that Cloudinary did not load the s†atic files when having the DeBug set to FALSE in my settings.py file. So I changed this when finishing my visual design. 
+<br>
+<br>
+How it looked like:
+(Insert image of how the homepage looked like)
+<br>
+<br>
+How it looks like now:
+(Insert image of the fixed homepage)
+
+!!!!
+<br>
+<br>
+
+I had problems **deploying to heroku** and found that there was an issue within requirements.txt.<br>
+Had to do the changes to my requirements.txt:<br>
+From - backports.zoneinfo==0.2.1<br>
+To - backports.zoneinfo==0.2.1;python_version<"3.9"<br>
+So that I could deploy/push to heroku
 
 ### Unfixed bugs
 There are no unfixed bugs.
@@ -223,7 +271,7 @@ required to have a free GitHub account and then go through the steps as follows:
 ### Code
 
 I want to once again thank the assessor for the site feedback to improve my code. The improvements I´ve made based on this is:
- - Re-designe the whole site to better suit the common purpose of the site. I´ve made a better flow with the colors and themes so that everything works and flows better design wise.
+ - Re-design the whole site to better suit the common purpose of the site. I´ve made a better flow with the colors and themes so that everything works and flows better design wise.
  - Added testing write-ups and more evidence of the manual testing.
  - Added images of my wireframe to the README.md file.
 
@@ -252,83 +300,6 @@ I´ve chosen not to include any contact info within the webpage.
 <br>
 <br>
 This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
-
-
-
-
-
-
-
-
-
-
-###### Edit Delete post
-![Edit Delete post](https://res.cloudinary.com/miswaq/image/upload/v1694218511/Edit_Delete_opfnhh.png)
 <br>
 <br>
-
-### Issues
-<br>
-There where a lot of opsticles as I was doing this project but I will list some here!
-I have had some visual problems with my eyes and most of the time I have not been able to see clearly.
-I got help from CI studentcare and pushed my course up abit with medical certificate.
-As we have been traveling while studying it has also made it hard to follow along the schedual.
-When I came back home to Sweden my mother had to get to the hospital and I was with here during that time as she dont speak the language very well.
-This is some personal issues I have had.
-<br>
-<br>
-
-### BugFix
-<br>
-Had to do the changes again to my requirements.txt:
-From - backports.zoneinfo==0.2.1
-To - backports.zoneinfo==0.2.1;python_version<"3.9"
-So that I could deploy/push to heroku
-<br>
-<br>
-
-### Testing
-I had errors apparing as I was testing and I googled to find out what to do. <br>
-I found a way around that error by changing the DATABASES in settings.py. <br>
-And I did as many tests that was possible for me at the finnishing days.
-<br>
-<br>
-
-
-
-
-Intro text used from:
-1. LoR https://edgestudio.com/script/lord-of-the-rings-opening-monologue/#:~:text=It%20began%20with%20the%20forging,above%20all%20else%20desire%20power.
-2. WoT http://www.foreverlostinliterature.com/2017/03/first-chapter-first-paragraph-tuesday.html#:~:text=In%20one%20Age%2C%20called%20the,But%20it%20was%20a%20beginning.
-3. GoT https://bookatlas.wordpress.com/2014/03/13/a-game-of-thrones/#:~:text=First%20Sentence%3A%20%E2%80%9CWe%20should%20start,Summers%20span%20decades.
-<br>
-<br>
-
-### TECHNOLOGIES USED
-
-* HTML.
-* CSS.
-* JavaScript.
-* Python + Django
-* Heroku
-* Cloudinary
-* ElephantSql
-* Summernote
-<br>
-<br>
-
-### Super User
-<br>
-
-	Name: Admin
-	Email: admin@home.se
-	Password: asdfjkl00
-<br>
-<br>
-
-This blog was created for my PP4 Project for the Full Stack Software Developer program with Code Institute.
-<br>
-
-Zekroum Abdulrahman Aregai, 2023
-
-
+Zekroum Abdulrahman Aregai, 2024
