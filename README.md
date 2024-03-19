@@ -160,7 +160,8 @@ I´ve tested all of my code in validation services at the end of the project to 
 Validation completed with no issues in W3C validation.
 
 <br>
-I´ve used UserStories to follow through with the planing and implementing:
+
+I´ve used [User Stories](https://github.com/users/MiswaQ/projects/8) to follow through with the planing and implementing:
 
 ![User Stories](https://res.cloudinary.com/miswaq/image/upload/v1710778211/User_Stories_qvdu9u.png)
 
@@ -196,7 +197,7 @@ How it looks like now:
 <br>
 !!!!
 
-**The css was not loading properly**, after many attempts I finally realized that Cloudinary did not load the s†atic files when having the .... set to TRUE/FALSE in my settings.py file. So I changed this when finishing my visual design. 
+**The css was not loading properly**, after many attempts I finally realized that Cloudinary did not load the s†atic files when having the DeBug set to FALSE in my settings.py file. So I changed this when finishing my visual design. 
 <br>
 <br>
 How it looked like:
@@ -209,10 +210,11 @@ How it looks like now:
 !!!!
 <br>
 <br>
-I had problems deploying to heroku and found that there was an issue within requirements.txt.
-Had to do the changes to my requirements.txt:
-From - backports.zoneinfo==0.2.1
-To - backports.zoneinfo==0.2.1;python_version<"3.9"
+
+I had problems **deploying to heroku** and found that there was an issue within requirements.txt.<br>
+Had to do the changes to my requirements.txt:<br>
+From - backports.zoneinfo==0.2.1<br>
+To - backports.zoneinfo==0.2.1;python_version<"3.9"<br>
 So that I could deploy/push to heroku
 
 ### Unfixed bugs
